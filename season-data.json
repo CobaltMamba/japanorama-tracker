@@ -1,0 +1,270 @@
+{
+  "meta": {
+    "season": 19,
+    "title": "Japanorama",
+    "route": "Nishi-Ōyama (Kagoshima) to Wakkanai (Hokkaido), 46 of Japan's 47 prefectures - the route never reaches Okinawa",
+    "teams": [
+      {
+        "id": "adamtom",
+        "name": "Team Adam & Tom",
+        "members": ["Adam Chase", "Tom Scott"],
+        "color": "red"
+      },
+      {
+        "id": "bensam",
+        "name": "Team Alpha Force",
+        "members": ["Ben Doyle", "Sam Denby"],
+        "color": "yellow"
+      }
+    ]
+  },
+
+  "episodes": [
+    {
+      "number": 0,
+      "title": "Starting Point",
+      "nebulaDate": null,
+      "youtubeDate": null,
+      "summary": "Both teams begin at Nishi-Ōyama in Kagoshima Prefecture.",
+      "challenges": [],
+      "teams": {
+        "adamtom": { "unlocked": [], "route": ["kagoshima"], "hand": [] },
+        "bensam": { "unlocked": [], "route": ["kagoshima"], "hand": [] }
+      }
+    },
+    {
+      "number": 1,
+      "title": "Never Believe in Yourself",
+      "nebulaDate": "2026-08-19",
+      "youtubeDate": "2026-08-26",
+      "summary": "The race begins at Nishi-Ōyama, and both teams learn early just how tough the format will be getting out of Kagoshima.",
+      "challenges": [
+        { "title": "Catch a Fish", "rewardCards": 5 },
+        { "title": "Leave your Prefecture By Boat", "rewardCards": 3 },
+        { "title": "Flip One of Japan's 100 Remarkable Waters", "rewardCards": 2 },
+        { "title": "Answer a Riddle Under a Big Bridge", "rewardCards": 2 },
+        { "title": "Complete the Japan Scavenger Hunt", "rewardCards": 2 }
+      ],
+      "teams": {
+        "adamtom": {
+          "unlocked": ["kagoshima"],
+          "route": ["kagoshima", "miyazaki"],
+          "hand": [
+            {
+              "title": "3x Reward",
+              "emojis": ["🃏"],
+              "blurb": "In a prefecture that ends in E"
+            }
+          ]
+        },
+        "bensam": {
+          "unlocked": ["kagoshima", "kumamoto"],
+          "route": ["kagoshima", "kumamoto", "fukuoka"],
+          "hand": [
+            {
+              "title": "Curse",
+              "emojis": ["💀"],
+              "blurb": "Curse of the Golden Carriage"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "number": 2,
+      "title": "Is There a Catch?",
+      "nebulaDate": "2026-08-26",
+      "youtubeDate": "2026-09-02",
+      "summary": "Ben & Sam pull ahead and reach Honshu, while Adam & Tom look for a way to close the gap.",
+      "challenges": [
+        { "title": "Catch a Fish", "rewardCards": 5 },
+        { "title": "Hide at One of the 100 Landscapes of Japan", "rewardCards": 2 },
+        { "title": "Taste Rice in a Rice Field", "rewardCards": 3 },
+        { "title": "Get Recognized", "rewardCards": 5 },
+        { "title": "Photograph a shrine gate", "rewardCards": 3 }
+      ],
+      "teams": {
+        "adamtom": {
+          "unlocked": ["miyazaki", "oita", "ehime"],
+          "route": ["miyazaki", "oita", "ehime"],
+          "hand": [
+            {
+              "title": "3x Reward",
+              "emojis": ["🃏"],
+              "blurb": "In a prefecture that ends in E"
+            },
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "45 minutes"
+            },
+            {
+              "title": "Unlock",
+              "emojis": ["🔓", "🗾"],
+              "blurb": "Any Prefecture"
+            }
+          ]
+         },
+        "bensam": {
+          "unlocked": ["fukuoka", "yamaguchi", "hiroshima"],
+          "route": ["fukuoka", "yamaguchi", "hiroshima", "okayama"],
+          "hand": [
+            {
+              "title": "Curse",
+              "emojis": ["💀"],
+              "blurb": "Curse of the Golden Carriage"
+            },
+            {
+              "title": "Curse",
+              "emojis": ["💀"],
+              "blurb": "Curse of the Forbidden Quest"
+            },
+            {
+              "title": "Curse Reverse",
+              "emojis": ["💀", "🔁"],
+              "blurb": ""
+            },
+            {
+              "title": "Unlock",
+              "emojis": ["🔓", "🗾"],
+              "blurb": "Any Prefecture"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "number": 3,
+      "title": "The Man on the Hill",
+      "nebulaDate": "2026-09-02",
+      "youtubeDate": "2026-09-09",
+      "summary": "Both teams have reached the mainland, and curse cards start complicating everyone's progress.",
+      "challenges": [
+        { "title": "Catch a Fish", "rewardCards": 5 },
+        { "title": "Build A House Of Cards At A Gassho-zukuri House", "rewardCards": 3 },
+        { "title": "Taste Rice in a Rice Field", "rewardCards": 3 },
+        { "title": "Record an Iconic Sound", "rewardCards": 2 },
+        { "title": "Taste Test Strawberries", "rewardCards": 2 }
+      ],
+      "teams": {
+        "adamtom": {
+          "unlocked": ["kagawa", "okayama", "hyogo"],
+          "route": ["ehime", "kagawa", "okayama", "hyogo", "osaka"],
+          "hand": [
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "45 minutes"
+            },
+            {
+              "title": "Curse Reverse",
+              "emojis": ["💀", "🔁"],
+              "blurb": ""
+            },
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "60 minutes"
+            },
+            {
+              "title": "Reshuffle Challenges",
+              "emojis": ["🔀"],
+              "blurb": "Opponents may protect one"
+            }
+          ]
+        },
+        "bensam": {
+          "unlocked": ["okayama", "hyogo"],
+          "route": ["okayama", "hyogo", "osaka"],
+          "hand": [
+            {
+              "title": "Curse",
+              "emojis": ["💀"],
+              "blurb": "Curse of the Golden Carriage"
+            },
+            {
+              "title": "Curse",
+              "emojis": ["💀"],
+              "blurb": "Curse of the Forbidden Quest"
+            },
+            {
+              "title": "Curse Reverse",
+              "emojis": ["💀", "🔁"],
+              "blurb": ""
+            },
+            {
+              "title": "Unlock",
+              "emojis": ["🔓", "🗾"],
+              "blurb": "Any Prefecture"
+            },
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "From A Prefecture That Is Landlocked"
+            }
+          ]
+        }
+      }
+    },
+    {
+      "number": 4,
+      "title": "TBA",
+      "nebulaDate": "2026-09-09",
+      "youtubeDate": "2026-09-16",
+      "summary": null,
+      "challenges": [],
+      "teams": {
+        "adamtom": { "unlocked": [], "route": [], "hand": [] },
+        "bensam": { "unlocked": [], "route": [], "hand": [] }
+      }
+    },
+    {
+      "number": 5,
+      "title": "TBA",
+      "nebulaDate": "2026-09-16",
+      "youtubeDate": "2026-09-23",
+      "summary": null,
+      "challenges": [],
+      "teams": {
+        "adamtom": { "unlocked": [], "route": [], "hand": [] },
+        "bensam": { "unlocked": [], "route": [], "hand": [] }
+      }
+    },
+    {
+      "number": 6,
+      "title": "TBA",
+      "nebulaDate": "2026-09-23",
+      "youtubeDate": "2026-09-30",
+      "summary": null,
+      "challenges": [],
+      "teams": {
+        "adamtom": { "unlocked": [], "route": [], "hand": [] },
+        "bensam": { "unlocked": [], "route": [], "hand": [] }
+      }
+    },
+    {
+      "number": 7,
+      "title": "TBA",
+      "nebulaDate": "2026-09-30",
+      "youtubeDate": "2026-10-07",
+      "summary": null,
+      "challenges": [],
+      "teams": {
+        "adamtom": { "unlocked": [], "route": [], "hand": [] },
+        "bensam": { "unlocked": [], "route": [], "hand": [] }
+      }
+    },
+    {
+      "number": 8,
+      "title": "TBA (Finale)",
+      "nebulaDate": "2026-10-07",
+      "youtubeDate": "2026-10-14",
+      "summary": null,
+      "challenges": [],
+      "teams": {
+        "adamtom": { "unlocked": [], "route": [], "hand": [] },
+        "bensam": { "unlocked": [], "route": [], "hand": [] }
+      }
+    }
+  ]
+}

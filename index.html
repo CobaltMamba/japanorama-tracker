@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Japanorama Tracker — Jet Lag: The Game S19</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="page">
+
+    <header class="episode-bar">
+      <button id="ep-prev" class="ep-nav" aria-label="Previous episode" type="button">&#8249;</button>
+
+      <div class="ep-info">
+        <div class="ep-title-row">
+          <span id="ep-number" class="ep-number"></span>
+          <h1 id="ep-title">Loading season data&hellip;</h1>
+        </div>
+        <p id="ep-summary" class="ep-summary"></p>
+        <div id="ep-dates" class="ep-dates"></div>
+      </div>
+
+      <button id="ep-next" class="ep-nav" aria-label="Next episode" type="button">&#8250;</button>
+    </header>
+
+    <div id="load-error" class="load-error" hidden></div>
+
+    <div id="map-wrap">
+      <svg
+        id="japan-map"
+        viewBox="-30 -20 1060 1200"
+        preserveAspectRatio="xMidYMid meet"
+        role="img"
+        aria-label="Map of Japan's 47 prefectures, coloured by which team has cleared each one this episode."
+      >
+        <defs>
+        <pattern id="stripe-pattern" patternUnits="userSpaceOnUse" width="12" height="12" patternTransform="rotate(45)">
+          <rect width="12" height="12" fill="#f5d547"></rect>
+          <rect width="6" height="12" fill="#d84343"></rect>
+        </pattern>
+        <marker id="route-arrow-yellow" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path class="route-arrowhead route-arrowhead-yellow" d="M0,0 L10,5 L0,10 z"></path>
+        </marker>
+        <marker id="route-arrow-red" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+          <path class="route-arrowhead route-arrowhead-red" d="M0,0 L10,5 L0,10 z"></path>
+        </marker>
+        </defs>
+
+        <!-- sea background -->
+        <rect class="sea" x="-30" y="-20" width="1060" height="1200"></rect>
+
+        <!-- subtle frame around the Okinawa inset -->
+        <rect class="inset-frame" x="-16" y="-11" width="392" height="116" rx="6"></rect>
+
+        <!-- populated at runtime by script.js -->
+        <g id="prefectures"></g>
+
+        <!-- rough per-episode travel lines, drawn above the prefecture fills -->
+        <g id="routes"></g>
+      </svg>
+
+      <!-- floating name labels, positioned over the SVG by script.js -->
+      <div id="labels-layer" aria-hidden="true"></div>
+    </div>
+
+    <section class="challenges" aria-label="Challenges currently on the board">
+      <h2>Challenges on the board</h2>
+      <div id="challenge-balls" class="challenge-balls"></div>
+    </section>
+
+    <section id="team-panels" class="team-panels" aria-label="Team hands"></section>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
