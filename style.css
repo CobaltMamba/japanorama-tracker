@@ -453,3 +453,28 @@ body {
 
 .route-stop-yellow { fill: var(--yellow); }
 .route-stop-red { fill: var(--red); }
+
+/* ---------------------------------------------------------------------- */
+/* Footer                                                                   */
+/* ---------------------------------------------------------------------- */
+ 
+.site-footer {
+  text-align: center;
+  font-size: 0.78rem;
+  opacity: 0.75;
+  padding-top: 12px;
+  border-top: 1px solid rgba(0, 0, 0, 0.15);
+}
+ 
+.site-footer a {
+  color: inherit;
+  text-decoration: underline;
+}
+ 
+.site-footer a:hover {
+  opacity: 0.8;
+}
+ 
+.footer-sep {
+  margin: 0 6px;
+}
