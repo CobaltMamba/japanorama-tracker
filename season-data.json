@@ -208,14 +208,80 @@
     },
     {
       "number": 4,
-      "title": "TBA",
+      "title": "Bamboozled",
       "nebulaDate": "2026-09-09",
       "youtubeDate": "2026-09-16",
-      "summary": null,
-      "challenges": [],
+      "summary": "As teams approach Kyoto, a major fork in the road lies ahead.",
+      "challenges": [
+        { "title": "Catch a Fish", "rewardCards": 5 },
+        { "title": "Find a Sika Deer", "rewardCards": 3 },
+        { "title": "Mind Meld at a Tokubetsu Meisho", "rewardCards": 3 },
+        { "title": "Bamboozle in Bamboo", "rewardCards": 2 },
+        { "title": "Taste Test Strawberries", "rewardCards": 2 }
+      ],
       "teams": {
-        "adamtom": { "unlocked": [], "route": [], "hand": [] },
-        "bensam": { "unlocked": [], "route": [], "hand": [] }
+        "adamtom": {
+          "unlocked": ["osaka", "kyoto"],
+          "route": ["osaka", "kyoto"],
+          "hand": [
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "45 minutes"
+            },
+            {
+              "title": "Curse Reverse",
+              "emojis": ["💀", "🔁"],
+              "blurb": ""
+            },
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "60 minutes"
+            },
+            {
+              "title": "Reshuffle Challenges",
+              "emojis": ["🔀"],
+              "blurb": "Opponents may protect one"
+            },
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "45 minutes"
+            },
+          ]
+        },
+        "bensam": {
+          "unlocked": ["osaka", "kyoto"],
+          "route": ["osaka", "kyoto"],
+          "hand": [
+            {
+              "title": "Unlock",
+              "emojis": ["🔓", "🗾"],
+              "blurb": "Any Prefecture"
+            },
+            {
+              "title": "Curse Reverse",
+              "emojis": ["💀", "🔁"],
+              "blurb": ""
+            },
+            {
+              "title": "Unlock",
+              "emojis": ["🔓", "🗾"],
+              "blurb": "Any Prefecture"
+            },
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "From A Prefecture That Is Landlocked"
+            },
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "From A Prefecture You Opponents Unlocked"
+            }
+          ]
+        }
       }
     },
     {
