@@ -286,15 +286,70 @@
     },
     {
       "number": 5,
-      "title": "TBA",
+      "title": "Shinkansen Shuffle",
       "nebulaDate": "2026-09-16",
       "youtubeDate": "2026-09-23",
-      "summary": null,
-      "challenges": [],
+      "summary": "Ben and Sam begin setting up a crucial move, while Tom and Adam attempt to get on the same page.",
+      "challenges": [
+        { "title": "Have an Amazing Time at a Baseball Game", "rewardCards": 5 },
+        { "title": "Find a Clam", "rewardCards": 4 },
+        { "title": "Mind Meld at a Tokubetsu Meisho", "rewardCards": 3 },
+        { "title": "Evaluate a UNESCO World Heritage Site", "rewardCards": 4 },
+        { "title": "Evoke Cinema at a Ghibli Site", "rewardCards": 3 }
+      ],
       "teams": {
-        "adamtom": { "unlocked": [], "route": [], "hand": [] },
-        "bensam": { "unlocked": [], "route": [], "hand": [] }
-      }
+        "adamtom": {
+          "unlocked": ["shiga", "fukui"],
+          "route": ["shiga", "fukui"],
+          "hand": [
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "45 minutes"
+            },
+            {
+              "title": "Curse Reverse",
+              "emojis": ["💀", "🔁"],
+              "blurb": ""
+            },
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "60 minutes"
+            }
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "60 minutes"
+            }
+          ]
+        },
+        "bensam": {
+          "unlocked": ["shiga", "gifu", "aichi"],
+          "route": ["shiga", "gifu", "aichi", "gifu"],
+          "hand": [
+            {
+              "title": "Unlock",
+              "emojis": ["🔓", "🗾"],
+              "blurb": "Any Prefecture"
+            },
+            {
+              "title": "Curse Reverse",
+              "emojis": ["💀", "🔁"],
+              "blurb": ""
+            },
+            {
+              "title": "Unlock",
+              "emojis": ["🔓", "🗾"],
+              "blurb": "Any Prefecture That Is Landlocked"
+            },
+            {
+              "title": "Unlock",
+              "emojis": ["🔓", "🗾"],
+              "blurb": "A Prefecture That Is In The Kanto Region"
+            }
+          ]
+        }
     },
     {
       "number": 6,
