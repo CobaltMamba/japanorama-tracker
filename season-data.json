@@ -405,10 +405,60 @@
       "nebulaDate": "2026-09-30",
       "youtubeDate": "2026-10-07",
       "summary": "Ben and Sam make a difficult decision with one of their cards while Adam and Tom search for an entirely be kind of card altogether.",
-      "challenges": [],
+      "challenges": [
+        { "title": "Stand Where Tom Stood", "rewardCards": 4 },
+        { "title": "See Three Viewers at the Three Views", "rewardCards": 4 },
+        { "title": "Recreate a Scene at a Hide and Seek Hiding Spot", "rewardCards": 3 },
+        { "title": "Find Someone Else Filming", "rewardCards": 2 }
+      ],
       "teams": {
-        "adamtom": { "unlocked": [], "route": [], "hand": [] },
-        "bensam": { "unlocked": [], "route": [], "hand": [] }
+        "adamtom": {
+          "unlocked": ["niigata", "yamagata", "akita"],
+          "route": ["yamagata", "akita"],
+          "hand": [
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "60 minutes"
+            },
+            {
+              "title": "Unlock",
+              "emojis": ["🔓", "🗾"],
+              "blurb": "A Prefecture that Your Opponents Unlocked"
+            },
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "60 minutes"
+            },
+            {
+              "title": "Dam Trading Card",
+              "emojis": ["💧"],
+              "blurb": ""
+            },
+            {
+              "title": "Unlock",
+              "emojis": ["🔓", "🗾"],
+              "blurb": "A Prefecture that Your Opponents Unlocked"
+            }
+          ]
+        },
+        "bensam": {
+          "unlocked": ["fukushima", "miyagi", "iwate"],
+          "route": ["fukushima", "miyagi", "iwate"],
+          "hand": [
+            {
+              "title": "Curse of the Forgetful",
+              "emojis": ["💀", "❓"],
+              "blurb": "The opposing team must immediately discard one card at random"
+            },
+            {
+              "title": "Shinkansen",
+              "emojis": ["🚅"],
+              "blurb": "From a Prefecture that Ends in \"I\""
+            }
+          ]
+        }
       }
     },
     {
