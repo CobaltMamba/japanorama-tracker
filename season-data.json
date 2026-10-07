@@ -463,14 +463,14 @@
     },
     {
       "number": 8,
-      "title": "TBA (Finale)",
+      "title": "Finale - Never Stop Moving",
       "nebulaDate": "2026-10-07",
       "youtubeDate": "2026-10-14",
-      "summary": null,
+      "summary": "All eyes are on Hokkaido as the game comes to a frantic conclusion.",
       "challenges": [],
       "teams": {
-        "adamtom": { "unlocked": [], "route": [], "hand": [] },
-        "bensam": { "unlocked": [], "route": [], "hand": [] }
+        "adamtom": { "unlocked": ["aomori","hokkaido"], "route": ["aomori","hokkaido"], "hand": [] },
+        "bensam": { "unlocked": ["aomori","hokkaido"], "route": ["aomori","hokkaido"], "hand": [] }
       }
     }
   ]
